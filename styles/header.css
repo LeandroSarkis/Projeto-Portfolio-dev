@@ -1,27 +1,78 @@
 header {
     background: url(../assets/imgs/Background_Intro.png);
+    background-size: 100% 100%;
+    
 
     text-align: center;
 
-    margin-top: 120px;
-}
+    margin: 120px auto 0;
 
-#profile-pic {
     position: relative;
-    display: inline-block;
 
-    & img:nth-child(1) {
-        border: 3px solid var(--red);
-        border-radius: 100px;
-        padding: 4px;
+    p span {
+        color: var(--red);
     }
-    
-    & img:nth-child(2) {
-        
-        position: absolute;
-        bottom: 0;
-        right: 1px;
+
+    div p:has(span) {
+        margin-bottom: 8px;
     }
-    
+
+    div p:not(span) {
+        margin-top: 20px;
+    }
 }
+
+#apresetantion {
+    width: 680px;
+    margin: auto;
+
+    #profile-pic {
+        position: relative;
+        display: inline-block;
+    
+        margin-bottom: 56px;
+    
+        & img:nth-child(1) {
+            border: 3px solid var(--red);
+            border-radius: 100px;
+            padding: 4px;
+        }
+        
+        & img:nth-child(2) {
+            
+            position: absolute;
+            bottom: 0;
+            right: 1px;
+        }
+        
+    }
+}
+
+
+
+#abilities {
+    gap: 16px;
+
+    margin-top: 80px;
+    margin-inline: 280px;
+
+    a {
+        font: var(--text-md);
+        color: var(--gray-500);
+
+        display: flex;
+
+        background-color: var(--gray-300);
+        
+        padding: 9px 16px;
+
+        align-items: center;
+        gap: 8px;
+
+        border-radius: 999px;
+    }
+
+}
+
+
 
