@@ -1,0 +1,27 @@
+header {
+    background: url(../assets/imgs/Background_Intro.png);
+
+    text-align: center;
+
+    margin-top: 120px;
+}
+
+#profile-pic {
+    position: relative;
+    display: inline-block;
+
+    & img:nth-child(1) {
+        border: 3px solid var(--red);
+        border-radius: 100px;
+        padding: 4px;
+    }
+    
+    & img:nth-child(2) {
+        
+        position: absolute;
+        bottom: 0;
+        right: 1px;
+    }
+    
+}
+

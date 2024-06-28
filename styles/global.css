@@ -31,3 +31,12 @@
     --text-md: 400 16px/140% var(--font-family-maven-pro);
     --text-sm: 400 14px/140% var(--font-family-maven-pro);
 }
+
+body {
+    background-color: var(--gray-200);
+}
+
+.container {
+    width: 1366px;
+    margin: auto;
+}
