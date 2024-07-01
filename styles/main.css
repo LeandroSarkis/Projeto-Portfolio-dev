@@ -36,6 +36,11 @@ main {
             }
         }
 
+        div:hover {
+            border: 0.1px solid var(--gray-400);
+            cursor: pointer;
+        }
+
     }
 }
 
