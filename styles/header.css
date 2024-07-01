@@ -7,8 +7,6 @@ header {
 
     margin: 120px auto 0;
 
-    position: relative;
-
     p span {
         color: var(--red);
     }
@@ -72,6 +70,10 @@ header {
         border-radius: 999px;
     }
 
+}
+
+#arrow-down {
+    margin-top: 100px;
 }
 
 

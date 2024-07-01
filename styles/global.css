@@ -38,7 +38,7 @@ body {
 
 .container {
     width: 1366px;
-    
+    margin: auto;
 }
 
 a {
