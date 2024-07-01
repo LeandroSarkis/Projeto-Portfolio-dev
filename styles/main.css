@@ -1,13 +1,15 @@
 main {
-    margin: 72px auto 0;
+    margin: 72px auto 144px;
+
+    
 }
 
-#works {
-    #work-apresentation {
-        text-align: center;
+.apresentation {
+    text-align: center;
 
-        margin-bottom: 56px;
-    }
+    margin-bottom: 56px;
+}
+#works {
 
     #projects {
         width: 1040px;
