@@ -18,6 +18,10 @@
     font: var(--text-sm);
 }
 
+.gray-100 {
+    color: var(--gray-100);
+}
+
 .gray-300 {
     color: var(--gray-300);
 }

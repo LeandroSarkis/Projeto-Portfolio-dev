@@ -1,7 +1,6 @@
 main {
-    margin: 72px auto 144px;
+    margin: 72px auto 0;
 
-    
 }
 
 .apresentation {
@@ -9,6 +8,8 @@ main {
 
     margin-bottom: 56px;
 }
+
+
 #works {
 
     #projects {
@@ -35,5 +36,26 @@ main {
             }
         }
 
+    }
+}
+
+#my-services {
+
+    margin-top: 144px;
+
+    padding: 88px 239px 120px;
+
+    background-color: var(--gray-100);
+
+    #services {
+        gap: 24px;
+
+        justify-content: center;
+
+        & div {
+            border: 1px solid var(--gray-200);
+            padding: 20px;
+            border-radius: 12px;
+        }
     }
 }
