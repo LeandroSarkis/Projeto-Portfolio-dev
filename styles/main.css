@@ -1,0 +1,37 @@
+main {
+    margin: 72px auto 0;
+}
+
+#works {
+    #work-apresentation {
+        text-align: center;
+
+        margin-bottom: 56px;
+    }
+
+    #projects {
+        width: 1040px;
+        margin: auto;
+        grid-template-columns: repeat(3, 1fr);
+        
+        gap: 24px;
+        img {
+            width: 306;
+            height: 156px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+
+        div {
+            background-color: var(--gray-300);
+            padding: 12px 12px 17px;
+
+            border-radius: 12px;
+
+            h3 {
+                margin-block: 20px 8px;
+            }
+        }
+
+    }
+}

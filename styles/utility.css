@@ -1,10 +1,17 @@
 .subtitle {
     font: var(--subtitle);
-    
 }
 
 .title-lg {
     font: var(--title-lg);
+}
+
+.title-md {
+    font: var(--title-md);
+}
+
+.title-sm {
+    font: var(--title-sm);
 }
 
 .text-sm {
@@ -29,4 +36,12 @@
 
 .flex {
     display: flex;
+}
+
+.red {
+    color: var(--red);
+}
+
+.grid {
+    display: grid;
 }
